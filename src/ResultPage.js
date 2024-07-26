@@ -12,7 +12,7 @@ function ResultPage() {
         <ul>
           <li>
             <a href="./HomePage.js">
-              <img src="googleLogo.png" className={style.logo} />
+              <img src="googleLogo.png" className={style.logo} alt="logo1" />
             </a>
           </li>
           <li>
