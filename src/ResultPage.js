@@ -24,7 +24,7 @@ function ResultPage() {
             />
           </li>
           <li>
-            <img src="appButton.png" className={style.appbt} />
+            <img src="appButton.png" className={style.appbt} alt="button1" />
           </li>
         </ul>
       </nav>
