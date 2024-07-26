@@ -11,8 +11,8 @@ function ResultPage() {
       <nav className={style.RPage}>
         <ul>
           <li>
-            <a href="/">
-              <img src="googleLogo.png" className={style.logo} alt="logo" />
+            <a href="./HomePage.js">
+              <img src="googleLogo.png" className={style.logo} />
             </a>
           </li>
           <li>
@@ -58,7 +58,7 @@ function ResultPage() {
           <ul className={style.data}>
             {mockData.map((data) => (
               <li key={data.id}>
-                <a className={style.link}>{data.url} </a>
+                <a href={data.url} className={style.link}>{data.url} </a>
                 <br />
                 {data.description}
               </li>

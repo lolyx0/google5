@@ -27,13 +27,13 @@ function HomePage() {
           <nav>
             <ul>
               <li>
-                <a href="#">Gmail</a>
+                <a href="./HomePage.js">Gmail</a>
               </li>
               <li>
-                <a href="#">Images</a>
+                <a href="./HomePage.js">Images</a>
               </li>
               <li>
-                <a href="#">
+                <a href="./HomePage.js">
                   <img
                     src="appButton.png"
                     className={style.appBtn}
@@ -77,25 +77,25 @@ function HomePage() {
         <div className={style.panel}>
           <ul>
             <li>
-              <a href="#">Advertising</a>
+              <a href="./HomePage.js">Advertising</a>
             </li>
             <li>
-              <a href="#">Business</a>
+              <a href="./HomePage.js">Business</a>
             </li>
             <li>
-              <a href="#">How Search Works</a>
+              <a href="./HomePage.js">How Search Works</a>
             </li>
           </ul>
 
           <ul className={style.right}>
             <li>
-              <a href="#">Privacy</a>
+              <a href="./HomePage.js">Privacy</a>
             </li>
             <li>
-              <a href="#">Terms</a>
+              <a href="./HomePage.js">Terms</a>
             </li>
             <li>
-              <a href="#">Settings</a>
+              <a href="./HomePage.js">Settings</a>
             </li>
           </ul>
         </div>
